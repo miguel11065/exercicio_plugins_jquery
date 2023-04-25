@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #191970;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cadastro {
+    margin: 120px;
+    justify-content: space-between;
+}
+
+.cadastro h2 {
+    padding: 6px;
+    color: #fff;
+    background-color: #4169E1;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.cadastro input {
+    padding: 12px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+#nome, #email, #endereco{
+    width: 500px;
+    border-radius: 6px;
+    border: none;
+
+}
+
+#telefone, #cpf, #cidade, #estado, #bairro, #cep{
+    width: 247px;
+    border-radius: 6px;
+    border: none;
+
+}
+
+form button {
+    width: 120px;
+    padding: 12px;
+    border: none;
+    background-color: #3CB371;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+form button:hover{
+    background-color: rgb(38, 201, 38);
+}
