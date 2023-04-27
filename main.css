@@ -22,8 +22,12 @@ form {
 }
 
 .cadastro {
-    margin: 120px;
+    margin: 75px 0 0 0;
     justify-content: space-between;
+}
+
+.cadastro label{
+    display: block;
 }
 
 .cadastro h2 {
@@ -71,4 +75,12 @@ form button {
 
 form button:hover{
     background-color: rgb(38, 201, 38);
+}
+
+label.error{
+    color:rgb(255, 0, 0);
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 12;
+    font-style: italic;
 }
